@@ -1,0 +1,30 @@
+{
+  "name": "seleniumtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleepylemur/seltest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleepylemur/seltest/issues"
+  },
+  "homepage": "https://github.com/sleepylemur/seltest#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "bluebird": "^2.10.2",
+    "chai": "^3.4.0",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.3",
+    "selenium-webdriver": "^2.48.0"
+  }
+}
