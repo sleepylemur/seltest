@@ -20,6 +20,7 @@ after(function() {
 });
 
 describe('app', function() {
+  this.timeout(10000);
   var server;
   beforeEach(function() {
     server = app.listen(3002);
