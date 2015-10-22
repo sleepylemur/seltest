@@ -12,7 +12,7 @@ var webdriver = require('selenium-webdriver'),
   until = webdriver.until;
 
 var driver = new webdriver.Builder()
-    .forBrowser('firefox')
+    .forBrowser('chrome')
     .build();
 
 after(function() {
